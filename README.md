@@ -42,9 +42,10 @@ O sistema conta com um menu interativo e validação robusta contra erros de dig
 O projeeto já está copilado e com um atalho .exe para testes.
 
 1. Acesse a pasta do projeto.
+```text
     └── 📂 Calculadora
            └── 🚀 Calculadora.exe
-
+```
 2. Execute o programa Calculadora.exe.
 
 ---

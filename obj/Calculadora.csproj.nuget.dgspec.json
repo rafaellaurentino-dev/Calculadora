@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rafaa\\Documents\\Calculadora\\Calculadora.csproj": {}
+    "C:\\Users\\rafaa\\OneDrive\\Documentos\\GitHub\\Calculadora\\Calculadora.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rafaa\\Documents\\Calculadora\\Calculadora.csproj": {
+    "C:\\Users\\rafaa\\OneDrive\\Documentos\\GitHub\\Calculadora\\Calculadora.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rafaa\\Documents\\Calculadora\\Calculadora.csproj",
+        "projectUniqueName": "C:\\Users\\rafaa\\OneDrive\\Documentos\\GitHub\\Calculadora\\Calculadora.csproj",
         "projectName": "Calculadora",
-        "projectPath": "C:\\Users\\rafaa\\Documents\\Calculadora\\Calculadora.csproj",
+        "projectPath": "C:\\Users\\rafaa\\OneDrive\\Documentos\\GitHub\\Calculadora\\Calculadora.csproj",
         "packagesPath": "C:\\Users\\rafaa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rafaa\\Documents\\Calculadora\\obj\\",
+        "outputPath": "C:\\Users\\rafaa\\OneDrive\\Documentos\\GitHub\\Calculadora\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rafaa\\AppData\\Roaming\\NuGet\\NuGet.Config"

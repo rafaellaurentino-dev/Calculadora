@@ -44,7 +44,7 @@ namespace MeuProjeto
                     break;
                 }
 
-                        /* Digite o primeiro numero */
+                /* Digite o primeiro numero */
 
                 int num1;
 
@@ -61,20 +61,29 @@ namespace MeuProjeto
                     }
                 }
 
-                        /* Digite o segundo numero */
+                /* Digite o segundo numero */
 
                 int num2;
 
                 while (true)
                 {
-                    Console.Write("Digite o segundo número: ");
+
+                    if (opcao == Opcao.Raiz || opcao == Opcao.Potencia)
+                    {
+                        Console.Write("Digite o Expoente: ");
+                    }
+
+                    else
+                    {
+                        Console.Write("Digite o segundo número: ");
+                    }
                     if (int.TryParse(Console.ReadLine(), out num2))
                     {
                         if (num2 == 0 && opcao == Opcao.Dividir)
                         {
                             Console.WriteLine("Não é possível dividir por zero.");
                         }
-                        else 
+                        else
                         {
                             break;
                         }
@@ -85,10 +94,9 @@ namespace MeuProjeto
                     }
                 }
 
-                        /* Calculos */
-                
+                /* Calculos */
+
                 double resultado = 0;
-                bool erroDivisao = false;
 
                 switch (opcao)
                 {
@@ -102,7 +110,7 @@ namespace MeuProjeto
                         resultado = num1 * num2;
                         break;
                     case Opcao.Dividir:
-                            resultado = num1 / num2;
+                        resultado = num1 / num2;
                         break;
                     case Opcao.Potencia:
                         resultado = Math.Pow(num1, num2);
